@@ -1,0 +1,614 @@
+[
+    {
+        "name":{
+            "es":"Comercial",
+            "en":"Commercial"
+        },
+        "code":"commercial",
+        "description":{
+            "es": "Motor de Aceleración de Ingresos.",
+            "en": "Revenue Acceleration Engine."
+        },
+        "color":"is-success",
+        "icon":{
+            "set":"fas",
+            "name":"hexagon-nodes"
+        },
+        "teams":[
+            {
+                "name":{
+                    "es":"Marketing",
+                    "en":"Marketing"
+                },
+                "code":"marketing",
+                "description":{
+                    "es": "Factoría de Relevancia y Demanda.",
+                    "en": "Relevance and Demand Factory."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"bullhorn"
+                }
+            },
+            {
+                "name":{
+                    "es":"Ventas",
+                    "en":"Sales"
+                },
+                "code":"sales",
+                "description":{
+                    "es": "Maquinaria de Conversión de Alto Valor.",
+                    "en": "High-Value Conversion Machinery."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"handshake"
+                }
+            },
+            {
+                "name":{
+                    "es":"Customer Success",
+                    "en":"Customer Success"
+                },
+                "code":"cs",
+                "description":{
+                    "es": "Arquitectura de Retención y Expansión.",
+                    "en": "Retention and Expansion Architecture."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"headset"
+                }
+            }
+        ]
+    },
+    {
+        "name":{
+            "es":"Finanzas",
+            "en":"Finance"
+        },
+        "code":"finance",
+        "description":{
+            "es": "Arquitectura de Rentabilidad y Valor.",
+            "en": "Profitability and Value Architecture."
+        },
+        "color":"is-success",
+        "icon":{
+            "set":"fas",
+            "name":"chart-line"
+        },
+        "teams":[
+            {
+                "name":{
+                    "es":"Cobranzas",
+                    "en":"Collections"
+                },
+                "code":"collections",
+                "description":{
+                    "es": "Visión Estratégica de Futuro Financiero.",
+                    "en": "Strategic Vision of Financial Future."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"chart-bar"
+                }
+            },
+            {
+                "name":{
+                    "es":"Contabilidad",
+                    "en":"Accounting"
+                },
+                "code":"accounting",
+                "description":{
+                    "es": "Gestión Precisa de Recursos y Obligaciones.",
+                    "en": "Accurate Management of Resources and Obligations."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"calculator"
+                }
+            },
+            {
+                "name":{
+                    "es":"Control de Gestión",
+                    "en":"Management Control"
+                },
+                "code":"control",
+                "description":{
+                    "es": "Vigilancia Estratégica de Desempeño.",
+                    "en": "Strategic Performance Oversight."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"chart-pie"
+                }
+            },
+            {
+                "name":{
+                    "es":"Planeación Financiera",
+                    "en":"Financial Planning"
+                },
+                "code":"finplan",
+                "description":{
+                    "es": "Orquestación de Estrategias y Recursos.",
+                    "en": "Orchestration of Strategies and Resources."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"chart-area"
+                }
+            },
+            {
+                "name":{
+                    "es":"Tesorería",
+                    "en":"Treasury"
+                },
+                "code":"treasury",
+                "description":{
+                    "es": "Gestión Dinámica de Liquidez y Riesgo Financiero.",
+                    "en": "Dynamic Management of Liquidity and Financial Risk."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"piggy-bank"
+                }
+            }
+        ]
+    },
+    {
+        "name":{
+            "es":"Operaciones",
+            "en":"Operations"
+        },
+        "code":"operations",
+        "description":{
+            "es": "Motor de Ejecución Impecable.",
+            "en": "Flawless Execution Engine."
+        },
+        "color":"is-success",
+        "icon":{
+            "set":"fas",
+            "name":"gears"
+        },
+        "teams":[
+            {
+                "name":{
+                    "es":"Producción",
+                    "en":"Production"
+                },
+                "code":"production",
+                "description":{
+                    "es": "Fábrica de Entregas de Valor Consistentes.",
+                    "en": "Factory of Consistent Value Deliveries."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"industry"   
+                }
+
+            },
+            {
+                "name":{
+                    "es":"Logística",
+                    "en":"Logistics"
+                },
+                "code":"logistics",
+                "description":{
+                    "es": "Red de Distribución Ágil y Confiable.",
+                    "en": "Agile and Reliable Distribution Network."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"truck"
+                }
+
+            },
+            {
+                "name":{
+                        "es":"Servicio",
+                        "en":"Service"
+                },
+                "code":"service",
+                "description":{
+                    "es": "Pilar de Satisfacción y Lealtad del Cliente.",
+                    "en": "Pillar of Customer Satisfaction and Loyalty."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"phone"
+                }
+
+            },
+            {
+                "name":{
+                    "es":"Calidad",
+                    "en":"Quality"
+                },
+                "code":"quality",
+                "description":{
+                    "es": "Garantía de Excelencia y Confiabilidad.",
+                    "en": "Guarantee of Excellence and Reliability."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"check-circle"
+                }
+
+            }
+        ]
+    },
+    {
+        "name":{
+            "es":"Talento",
+            "en":"Talent"
+        },
+        "code":"talent",
+        "description":{
+            "es": "Gestión de Capital Humano de Alto Impacto.",
+            "en": "High-Impact Human Capital Management."
+        },
+        "color":"is-success",
+        "icon":{
+            "set":"fas",
+            "name":"users"
+        },
+        "teams":[
+            {
+                "name":{
+                    "es":"Adquisición de Talento",
+                    "en":"Talent Acquisition"
+                },
+                "code":"talent-acquisition",
+                "description":{
+                    "es": "Cazadores de Talento para el Futuro.",
+                    "en": "Talent Hunters for the Future."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"user-plus"
+                }
+            },
+            {
+                "name":{
+                    "es":"Desarrollo de Talento",
+                    "en":"Talent Development"
+                },
+                "code":"talent-development",
+                "description":{
+                    "es": "Arquitectos de Crecimiento y Potencial.",
+                    "en": "Architects of Growth and Potential."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"user-cog"
+                }
+            },
+            {
+                "name":{
+                    "es":"Compensación y Beneficios",
+                    "en":"Compensation and Benefits"
+                },
+                "code":"compensation-benefits",
+                "description":{
+                    "es": "Diseñadores de Paquetes Competitivos y Motivadores.",
+                    "en": "Designers of Competitive and Motivating Packages."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"money-bill-wave"
+                }
+            },
+            {
+                "name":{
+                    "es":"Relaciones Laborales",
+                    "en":"Labor Relations"
+                },
+                "code":"labor-relations",
+                "description":{
+                    "es": "Mediadores de Armonía y Colaboración en el Lugar de Trabajo.",
+                    "en": "Mediators of Harmony and Collaboration in the Workplace."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"handshake-alt-slash"
+                }
+            }
+        ]
+    },
+    {
+        "name":{
+            "es":"Información",
+            "en":"Information"
+        },
+        "code":"information",
+        "description":{
+            "es": "Inteligencia para la Toma de Decisiones.",
+            "en": "Intelligence for Decision-Making."
+        },
+        "color":"is-success",
+        "icon":{
+            "set":"fas",
+            "name":"network-wired"
+        },
+        "teams":[
+            {
+                "name":{
+                    "es":"Análisis de Datos",
+                    "en":"Data Analysis"
+                },
+                "code":"data-analysis",
+                "description":{
+                    "es": "Descubridores de Insights para la Estrategia.",
+                    "en": "Discoverers of Insights for Strategy."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"chart-bar"
+                }
+            },
+            {
+                "name":{
+                    "es":"Inteligencia de Negocios",
+                    "en":"Business Intelligence"
+                },
+                "code":"business-intelligence",
+                "description":{
+                    "es": "Arquitectos de Información para la Acción.",
+                    "en": "Architects of Information for Action."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"chart-pie"
+                }
+            },
+            {
+                "name":{
+                    "es":"Gestión del Conocimiento",
+                    "en":"Knowledge Management"
+                },
+                "code":"knowledge-management",
+                "description":{
+                    "es": "Guardianes de Sabiduría Organizacional.",
+                    "en": "Guardians of Organizational Wisdom."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"book"
+                }
+            }
+        ]
+    },
+    {
+        "name":{
+            "es":"Tecnología",
+            "en":"Technology"
+        },
+        "code":"technology",
+        "description":{
+            "es": "Habilitador de Innovación y Escala.",
+            "en": "Enabler of Innovation and Scale."
+        },
+        "color":"is-success",
+        "icon":{
+            "set":"fas",
+            "name":"laptop-code"
+        },
+        "teams":[
+            {
+                "name":{
+                    "es":"Desarrollo e Implementación de Software",
+                    "en":"Software Development and Implementation"
+                },
+                "code":"software-implementation",
+                "description":{
+                    "es": "Constructores de Soluciones Digitales Personalizadas.",
+                    "en": "Builders of Custom Digital Solutions."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"code"
+                } 
+            },
+            {
+                "name":{
+                    "es":"Infraestructura y Redes",
+                    "en":"Infrastructure and Networks"
+                },
+                "code":"infrastructure-networks",
+                "description":{
+                    "es": "Arquitectos de Conectividad y Rendimiento Tecnológico.",
+                    "en": "Architects of Connectivity and Technological Performance."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"server"
+                }
+            },
+            {
+                "name":{
+                    "es":"Seguridad Informática",
+                    "en":"Cybersecurity"
+                },
+                "code":"cybersecurity",
+                "description":{
+                    "es": "Guardianes de la Integridad y Confidencialidad Digital.",
+                    "en": "Guardians of Digital Integrity and Confidentiality."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"shield-virus"
+                }
+            },
+            {
+                "name":{
+                    "es":"Soporte Técnico",
+                    "en":"Technical Support"
+                },
+                "code":"technical-support",
+                "description":{
+                    "es": "Pilar de Continuidad y Satisfacción Tecnológica.",
+                    "en": "Pillar of Technological Continuity and Satisfaction."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"headset"
+                }
+            }
+        ]
+    },
+    {
+        "name":{
+            "es":"Dirección y Control",
+            "en":"Direction and Control"
+        },
+        "code":"direction",
+        "description":{
+            "es": "Navegación Estratégica y Alineación.",
+            "en": "Strategic Navigation and Alignment."
+        },
+        "color":"is-success",
+        "icon":{
+            "set":"fas",
+            "name":"compass"
+        },
+        "teams":[
+            {
+                "name":{
+                    "es":"Dirección General",
+                    "en":"General Management"
+                },
+                "code":"general-management",
+                "description":{
+                    "es": "Capitán del Barco Empresarial.",
+                    "en": "Captain of the Business Ship."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"ship"
+                }
+            },
+            {
+                "name":{
+                    "es":"Estrategia Corporativa",
+                    "en":"Corporate Strategy"
+                },
+                "code":"corporate-strategy",
+                "description":{
+                    "es": "Arquitectos de la Visión y el Rumbo Empresarial.",
+                    "en": "Architects of Business Vision and Direction."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"lightbulb"
+                }
+            },
+            {
+                "name":{
+                    "es":"Control de Gestión",
+                    "en":"Management Control"
+                },
+                "code":"management-control",
+                "description":{
+                    "es": "Vigilancia Estratégica de Desempeño y Resultados.",
+                    "en": "Strategic Oversight of Performance and Results."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"chart-line"
+                }
+            }
+        ]
+    },
+    {
+        "name":{
+            "es":"Legal, Cumplimiento y Riesgo",
+            "en":"Legal, Compliance and Risk"
+        },
+        "code":"legal",
+        "description":{
+            "es": "Escudo de Resiliencia y Confianza.",
+            "en": "Shield of Resilience and Trust."
+        },
+        "color":"is-success",
+        "icon":{
+            "set":"fas",
+            "name":"shield-alt"
+        },
+        "teams":[
+            {
+                "name":{
+                    "es":"Legal",
+                    "en":"Legal"
+                },
+                "code":"legal",
+                "description":{
+                    "es": "Defensores de la Integridad Jurídica y Contractual.",
+                    "en": "Defenders of Legal and Contractual Integrity."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"gavel"
+                }
+            },
+            {
+                "name":{
+                    "es":"Cumplimiento Normativo",
+                    "en":"Regulatory Compliance"
+                },
+                "code":"regulatory-compliance",
+                "description":{
+                    "es": "Guardianes de la Conformidad y la Ética Empresarial.",
+                    "en": "Guardians of Business Conformity and Ethics."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"clipboard-check"
+                }
+            },
+            {
+                "name":{
+                    "es":"Gestión de Riesgos",
+                    "en":"Risk Management"
+                },
+                "code":"risk-management",
+                "description":{
+                    "es": "Arquitectos de Resiliencia y Continuidad Empresarial.",
+                    "en": "Architects of Business Resilience and Continuity."
+                },
+                "color":"is-success",
+                "icon":{
+                    "set":"fas",
+                    "name":"exclamation-triangle"
+                }
+            }
+        ]
+    }
+]

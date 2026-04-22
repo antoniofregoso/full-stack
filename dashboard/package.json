@@ -1,0 +1,42 @@
+{
+    "name": "cj-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "public/index.js",
+    "module": "src/index.js",
+    "scripts": {
+        "to-toon": "node convert.mjs",
+        "to-json": "node revert.mjs",
+        "scss": "sass --load-path=node_modules src/app/scss/assets.scss public/assets.css",
+        "config": "mkdir -p src/.env && echo '{\"google\":{\"gtag\":\"G-XXXXXXXXXX\"}}' > src/.env/conf.json",
+        "esbuild:base": "esbuild src/index.js --bundle --outfile=public/index.js --banner:js='/*! Page generated with CustomerJourney.js */'",
+        "serve": "npm run esbuild:base -- --serve-fallback=public/index.html --servedir=public",
+        "init": "npm-run-all config scss serve",
+        "build": "npm run esbuild:base",
+        "build:prod": "npm run esbuild:base -- --minify",
+        "dev": "npm run esbuild:base -- --watch --serve-fallback=public/index.html --servedir=public"
+    },
+    "author": "Antonio Fregoso",
+    "license": "GPL-3.0-or-later",
+    "devDependencies": {
+        "@toon-format/toon": "^2.1.0",
+        "esbuild": "^0.25.5",
+        "npm-run-all": "^4.1.5",
+        "sass": "^1.71.1"
+    },
+    "dependencies": {
+        "@customerjourney/cj-components": "^0.12.0",
+        "@customerjourney/cj-core": "^1.10.0",
+        "@customerjourney/cj-router": "^1.4.0",
+        "@customerjourney/cj-sliders": "^0.11.0",
+        "@reduxjs/toolkit": "^2.2.7",
+        "animate.css": "^4.1.1",
+        "bulma": "^1.0.2",
+        "graphql-request": "^7.4.0",
+        "moment": "^2.30.1",
+        "quill": "^2.0.2",
+        "redux-persist": "^6.0.0",
+        "sortablejs": "^1.15.7",
+        "turndown": "^7.2.4"
+    }
+}

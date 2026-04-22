@@ -1,0 +1,637 @@
+[
+    {
+
+        "keys":{
+            "common":"dashboard"
+        },
+        "name":{
+            "es": "Componentes Comunes de la Interfaz",
+            "en": "Common Interface Components"
+        },
+        "description":{
+            "es": "Componentes comunes utilizados en la interfaz de usuario",
+            "en": "Common components used in the user interface"
+        },
+        "view":{
+            "actions": {
+                    "copy": {
+                        "tooltip": {
+                            "es": "Copiar",
+                            "en": "Copy"
+                        }
+                    },
+                    "export": {
+                        "tooltip": {
+                            "es": "Exportar",
+                            "en": "Export"
+                        }
+                    },
+                    "save": {
+                        "tooltip": {
+                            "es": "Guardar",
+                            "en": "Save"
+                        }
+                    },
+                    "archive": {
+                        "tooltip": {
+                            "es": "Archivar",
+                            "en": "Archive"
+                        }
+                    },
+                    "delete": {
+                        "tooltip": {
+                            "es": "Eliminar",
+                            "en": "Delete"
+                        }
+                    },
+                    "prev": {
+                        "tooltip": {
+                            "es": "Anterior",
+                            "en": "Previous"
+                        }
+                    },
+                    "next": {
+                        "tooltip": {
+                            "es": "Siguiente",
+                            "en": "Next"
+                        }
+                    },
+                    "search": {
+                        "tooltip": {
+                            "es": "Buscar",
+                            "en": "Search"
+                        }
+                    },
+                    "kanban": {
+                        "tooltip": {
+                            "es": "Vista Kanban",
+                            "en": "Kanban View"
+                        }
+                    },
+                    "list": {
+                        "tooltip": {
+                            "es": "Vista Lista",
+                            "en": "List View"
+                        }
+                    },
+                    "calendar": {
+                        "tooltip": {
+                            "es": "Vista Calendario",
+                                "en": "Calendar View",
+                                "fr": "Vue Calendrier"
+                        }
+                    },
+                    "activities": {
+                        "tooltip": {
+                            "es": "Vista Actividades",
+                            "en": "Activities View"
+                        }
+                    },
+                    "pending": {
+                        "tooltip": {
+                            "es": "Pendientes",
+                            "en": "Pending"
+                        }
+                    },
+                    "notifications": {
+                        "tooltip": {
+                            "es": "Notificaciones",
+                            "en": "Notifications"
+                        }
+                    },
+                    "i18n": {
+                        "lang": {
+                            "es": "🇲🇽",
+                            "en": "🇺🇸"
+                        }
+                    }
+            },
+            "calendar":{
+                    "options": {
+                        "today": {
+                            "text": {
+                                "es": "Hoy",
+                                "en": "Today"
+                            }
+                        },
+                        "day": {
+                            "text": {
+                                "es": "Día",
+                                    "en": "Day",
+                                    "fr": "Jour"
+                            }
+                        },
+                        "week": {
+                            "text": {
+                                "es": "Semana",
+                                    "en": "Week",
+                                    "fr": "Semaine"
+                            }
+                        },
+                        "month": {
+                            "text": {
+                                "es": "Mes",
+                                "en": "Month"
+                            }
+                        },
+                        "year": {
+                            "text": {
+                                "es": "Año",
+                                "en": "Year"
+                            }
+                        }
+                    },
+                    "weekDays": {
+                        "sun": {
+                            "es": "Domingo",
+                            "en": "Sunday"
+                        },
+                        "mon": {
+                            "es": "Lunes",
+                            "en": "Monday"
+                        },
+                        "tue": {
+                            "es": "Martes",
+                            "en": "Tuesday"
+                        },
+                        "wed": {
+                            "es": "Miércoles",
+                            "en": "Wednesday"
+                        },
+                        "thu": {
+                            "es": "Jueves",
+                            "en": "Thursday"
+                        },
+                        "fri": {
+                            "es": "Viernes",
+                            "en": "Friday"
+                        },
+                        "sat": {
+                            "es": "Sábado",
+                            "en": "Saturday"
+                        }
+                    }
+                },
+            "activities": {
+                    "toDo": {
+                        "name": {
+                            "text": {
+                                "es": "Tareas por hacer",
+                                "en": "To Do"
+                            }
+                        }
+                    },
+                    "email": {
+                        "name": {
+                            "text": {
+                                "es": "Emails",
+                                "en": "Emails"
+                            }
+                        }
+                    },
+                    "call": {
+                        "name": {
+                            "text": {
+                                "es": "Llamadas",
+                                "en": "Calls"
+                            }
+                        }
+                    },
+                    "meeting": {
+                        "name": {
+                            "text": {
+                                "es": "Reuniones",
+                                "en": "Meetings"
+                            }
+                        }
+                    },
+                    "document": {
+                        "name": {
+                            "text": {
+                                "es": "Documentos",
+                                "en": "Documents"
+                            }
+                        }
+                    }
+                },
+            "form": {
+                    "classList": [
+                        "is-boxed",
+                        "is-small"
+                    ],
+                    "tabs": [
+                        {
+                            "id": "emails",
+                            "name": {
+                                "text": {
+                                    "es": "Correos",
+                                    "en": "Emails"
+                                }
+                            },
+                            "classList": [
+                                "is-active"
+                            ]
+                        },
+                        {
+                            "id": "whatsapp",
+                            "name": {
+                                "text": {
+                                    "es": "Whatsapp",
+                                    "en": "Whatsapp"
+                                }
+                            }
+                        },
+                        {
+                            "id": "notes",
+                            "name": {
+                                "text": {
+                                    "es": "Notas",
+                                    "en": "Notes"
+                                }
+                            }
+                        },
+                        {
+                            "id": "activities",
+                            "name": {
+                                "text": {
+                                    "es": "Actividades",
+                                    "en": "Activities"
+                                }
+                            }
+                        },
+                        {
+                            "id": "documents",
+                            "name": {
+                                "text": {
+                                    "es": "Documentos",
+                                    "en": "Documents"
+                                }
+                            }
+                        }
+                    ]
+                }
+        }
+    },
+    {
+        "keys":{
+            "root":"/"
+        },
+        "name":{
+                "es":"Nombre de la aplicación",
+                "en":"App Name"
+            },
+        "description":{
+            "es":"Descripción de la aplicación",
+            "en":"App Description"
+        },
+        "view":{            
+            "menu":[
+                {
+                    "title":{
+                        "es": "Inicio",
+                        "en": "Home"
+                    },
+                    "icon": {
+                        "prefix": "fa",
+                        "name": "home"
+                    },
+                    "href": "/"
+                },
+                {
+                    "title":{
+                        "es":"talento",
+                        "en":"talent"
+                    },
+                    "icon": {
+                        "prefix": "fa",
+                        "name": "users"
+                    },
+                    "href": "/system/talent"
+                }
+            ],
+            "admin":[
+                {
+                    "title":{
+                    "es": "Configuración",
+                    "en": "Settings"
+                    },
+                    "icon": {
+                        "prefix": "fa",
+                        "name": "gear"
+                    },
+                    "href": "#",
+                    "items":[
+                        {
+                            "title":{
+                                "es": "Empresa",
+                                "en": "Company"
+                            },
+                            "href": "/admin/entity/core.company"
+                        },
+                        {
+                            "title":{
+                                "es": "Usuarios",
+                                "en": "Users"
+                            },
+                            "href": "/admin/entity/auth.user"
+                        },
+                        {
+                            "title":{
+                                "es": "Idiomas",
+                                "en": "Languages"
+                            },
+                            "href": "/admin/entity/core.lang"
+                        }
+                    ]
+                }
+            ],
+            "data":{
+                "model":{
+                    "name":"app",
+                    "description":{
+                        "text":{
+                            "es":"Nombre de la Aplicación",
+                            "en":"App Name"
+                        }
+                    },
+                    "kpis":[],
+                    "gauges":[],
+                    "charts":[],
+                    "lists":[]
+                }
+            }
+        }
+    },
+    {
+        "keys":{
+            "root":"/admin/entity/",
+            "model":"core.company"
+        },
+        "name":{
+            "es":"Información de la Empresa",
+            "en":"Company Information"
+        },
+        "description":{
+            "es":"Gestión de la información de la empresa",
+            "en":"Management of company information"
+        },
+         "view":{
+            "data":{
+                "model":{
+                    "name":"company",
+                    "description":{
+                        "text":{
+                            "es":"Información de la Empresa",
+                            "en":"Company Information"
+                        }
+                    },
+                    "schema":{
+                        "id":{
+                            "type":"integer",
+                            "label":{
+                                "text":{
+                                    "es":"ID",
+                                    "en":"ID"
+                                }
+                            }
+                        },
+                        "logo_url":{
+                            "type":"image",
+                            "inList":false,
+                            "inForm":0,
+                            "label":{
+                                "text":{
+                                    "es":"URL del Logo",
+                                    "en":"Logo URL"
+                                }
+                            }
+                        },
+                        "name":{
+                            "type":"string",
+                            "inList":true,
+                            "inForm":0,
+                            "label":{
+                                "text":{
+                                    "es":"Nombre de la Empresa",
+                                    "en":"Company Name"
+                                }
+                            }
+                        },
+                        "street":{
+                            "type":"string",
+                            "inList":false,
+                            "inForm":1,
+                            "label":{
+                                "text":{
+                                    "es":"Calle",
+                                    "en":"Street"
+                                }
+                            }
+                        },
+                        "street2":{
+                            "type":"string",
+                            "inList":false,
+                            "inForm":1,
+                            "label":{
+                                "text":{
+                                    "es":"Número Exterior",
+                                    "en":"Street 2"
+                                }
+                            }
+                        },
+                        "city":{
+                            "type":"string",
+                            "inList":false,
+                            "inForm":1,
+                            "label":{
+                                "text":{
+                                    "es":"Ciudad",
+                                    "en":"City"
+                                }
+                            }
+                        },
+                        "state_id":{
+                            "type":"many2one",
+                            "inList":true,
+                            "inForm":1,
+                            "label":{
+                                "text":{
+                                    "es":"Estado",
+                                    "en":"State"
+                                }
+                            }
+                        },
+                        "country_id":{
+                            "type":"many2one",
+                            "inList":true,
+                            "inForm":1,
+                            "label":{
+                                "text":{
+                                    "es":"País",
+                                    "en":"Country"
+                                }
+                            }
+                        },
+                        "phone":{
+                            "type":"string",
+                            "inList":false,
+                            "inForm":2,
+                            "label":{
+                                "text":{
+                                    "es":"Teléfono",
+                                    "en":"Phone"
+                                }
+                            }
+                        },
+                        "email":{
+                            "type":"string",
+                            "inList":false,
+                            "inForm":2,
+                            "label":{
+                                "text":{
+                                    "es":"Correo Electrónico",
+                                    "en":"Email"    
+                                }
+                            }
+                        },
+                        "website":{
+                            "type":"url",
+                            "inList":false,
+                            "inForm":2,
+                            "label":{
+                                "text":{
+                                    "es":"Sitio Web",
+                                    "en":"Website"
+                                }
+                            }       
+                        },
+                        "vat":{
+                            "type":"string",
+                            "inList":false,
+                            "inForm":3,
+                            "label":{
+                                "text":{
+                                    "es":"Número de Identificación Fiscal",
+                                    "en":"VAT Number"
+                                }
+                            }
+                        },
+                        "lang_id":{
+                            "type":"many2one",
+                            "inList":true,
+                            "inForm":3,
+                            "label":{
+                                "text":{
+                                    "es":"Idioma Predeterminado",
+                                    "en":"Default Language"
+                                }
+                            }
+                        },
+                        "user_id":{
+                            "type":"many2one",
+                            "inList":true,
+                            "inForm":3,
+                            "label":{
+                                "text":{
+                                    "es":"Usuario Responsable",
+                                    "en":"Responsible User"
+                                }
+                            }
+                        },
+                        "systems_ids":{
+                            "type":"many2many",
+                            "inList":false,
+                            "label":{
+                                "text":{
+                                    "es":"Sistemas Asociados",
+                                    "en":"Associated Systems"
+                                }
+                            }
+                        },
+                        "users_ids":{
+                            "type":"many2many",
+                            "inList":false,
+                            "label":{
+                                "text":{
+                                    "es":"Usuarios Asociados",
+                                    "en":"Associated Users"
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+         }
+    },
+    {
+        "keys":{
+            "root":"/admin/entity/",
+            "model":"core.user"
+        },
+        "name":{
+            "es":"Gestión de Usuarios",
+            "en":"User Management"
+        },
+        "description":{
+            "es":"Gestión de los usuarios del sistema",
+            "en":"Management of system users"
+        },
+        "view":{
+            "data":{
+                "model":{
+                    "name":"user",
+                    "description":{
+                        "text":{
+                            "es":"Gestión de Usuarios",
+                            "en":"User Management"
+                        }
+                    },
+                    "schema":{}
+                }
+            }
+        }
+    },
+    {
+        "keys":{
+            "root":"/admin/entity/",
+            "model":"core.user_asignment"
+        },
+        "name":{
+            "es":"Asignación de Usuarios a Roles",
+            "en":"User Assignment to Roles"
+        },
+        "description":{
+            "text":{
+                "es":"Asignación de Usuarios a Roles",
+                "en":"User Assignment to Roles"
+            }
+        },
+        "data":{
+            "model":{
+                "schema":{}
+            }
+        }
+    },
+    {
+        "keys":{
+            "root":"/admin/entity/",
+            "model":"core.lang"
+        },
+        "name":{
+            "es":"Gestión de Idiomas",
+            "en":"Language Management"
+        },
+        "description":{
+            "es":"Gestión de los idiomas disponibles en el sistema",
+            "en":"Management of available languages in the system"
+        },
+        "view":{
+            "data":{
+                "model":{
+                    "schema":{}
+                }
+            }
+        }
+    }
+]

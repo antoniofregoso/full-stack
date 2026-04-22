@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CJ Backend GraphQL RBAC Demo</title>
+    <style>
+      :root {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      body {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      form,
+      section {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+      }
+      label {
+        display: block;
+        margin: 0.5rem 0 0.25rem;
+      }
+      input,
+      button {
+        width: 100%;
+        padding: 0.55rem;
+        margin-bottom: 0.5rem;
+        box-sizing: border-box;
+      }
+      pre {
+        background: #111;
+        color: #e2e2e2;
+        min-height: 260px;
+        max-height: 380px;
+        overflow: auto;
+        border-radius: 8px;
+        padding: 1rem;
+      }
+      .inline-btn {
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Demo GraphQL RBAC (Vanilla JS)</h1>
+
+    <form id="login-form">
+      <h2>1) Login</h2>
+      <label for="email">Email</label>
+      <input id="email" type="email" required />
+      <label for="password">Password</label>
+      <input id="password" type="password" required />
+      <button type="submit">Iniciar sesion</button>
+    </form>
+
+    <section>
+      <h2>2) Query con core.read</h2>
+      <button id="btn-countries">Ejecutar getAllCountries</button>
+    </section>
+
+    <form id="create-country-form">
+      <h2>3) Mutation con core.write</h2>
+      <label for="country-code">Code</label>
+      <input id="country-code" maxlength="3" value="ZZ" required />
+      <label for="country-name">Name</label>
+      <input id="country-name" value="Pais Demo" required />
+      <label for="country-phone">Phone Code (opcional)</label>
+      <input id="country-phone" value="+999" />
+      <label for="country-currency-id">Currency ID (opcional)</label>
+      <input id="country-currency-id" type="number" />
+      <button type="submit">Ejecutar createCountry</button>
+    </form>
+
+    <section>
+      <h2>Sesion</h2>
+      <button id="btn-logout" class="inline-btn">Cerrar sesion</button>
+    </section>
+
+    <h2>Log</h2>
+    <pre id="log"></pre>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
+

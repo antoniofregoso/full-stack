@@ -1,0 +1,53 @@
+props:
+  id: home
+  noCache: true
+  events:
+    trackViewed[4]: attention,interest,desire,action
+    leavingapp: true
+    leavedapp: true
+  title:
+    es: Demo|CustumerJourney.js
+    en: Demo|CustumerJourney.js
+    fr: Démo|CustumerJourney.js
+  description:
+    es: Demo de CustomerJourney.js - La herramienta definitiva para crear embudos de ventas hiper-personalizables.
+    en: CustomerJourney.js Demo - The ultimate tool to create hyper-customizable sales funnels.
+    fr: Démo de CustomerJourney.js - L'outil ultime pour créer des entonnoirs de vente hyper-personnalisables.
+  components[3]:
+    - id: header
+      brand:
+        src: /images/cj.webp
+        srcDark: /images/cj-light.webp
+      i18n:
+        lang:
+          es: 🇲🇽
+          en: 🇺🇸
+          fr: 🇫🇷
+    - id: footer
+      brand:
+        src: /images/cj.webp
+        srcDark: /images/cj-light.webp
+      content:
+        text:
+          es: Open Source CRM | Hecho con ❤️ con CustomerJourney.js
+          en: Open Source CRM | Made with ❤️ with CustomerJourney.js
+          fr: CRM Open Source | Fait avec ❤️ avec CustomerJourney.js
+      privacyPolicy:
+        text:
+          es: Política de Privacidad
+          en: Privacy Policy
+          fr: Politique de confidentialité
+        url: "https://customerjourney.ninja/privacy-policy/"
+    - id: message
+      message:
+        classList[1]: is-warning
+        header:
+          text:
+            es: ¿Te vas? 😏
+            en: You go? 😏
+            fr: Tu t'en vas? 😏
+        body:
+          text:
+            es: "__Espera:__\n\n _¿Ya sacaste tu cupón de descuento?_\n\n _¡Sacalo de volada que se acaban los muebles!_"
+            en: "__Wait:__\n\n _Have you already taken out your discount coupon?_\n\n _Take it out quickly, we're running out of furniture!_"
+            fr: "__Attendez :__\n\n _Avez-vous déjà reçu votre coupon de réduction ?_\n\n _Sortez-le vite car les meubles sont épuisés !_"

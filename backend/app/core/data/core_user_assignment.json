@@ -1,0 +1,9 @@
+[
+    {
+        "user_email": "admin@local.dev",
+        "team_code": "software-implementation",
+        "assignment_role": "administrator",
+        "is_manager": true,
+        "active": true
+    }
+]

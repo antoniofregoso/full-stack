@@ -1,0 +1,30 @@
+{
+    "props": {
+        "id": "dashboard",
+        "noCache": true,
+        "title": {},
+        "description": {},
+        "image": "",
+        "type": "business.business",
+        "components": [
+            {
+                "id": "dashboard",
+                "eventName": "dashboard-action",
+                "view": "kanban",
+                "currency": "MXN",
+                "country": "MX",
+                "sidebar": {
+                    "expanded": false,
+                    "menu": [],
+                    "admin": []
+                },
+                "actions": {},
+                "breadcrumb": {},
+                "calendar": {},
+                "activities": {},
+                "form": {},
+                "data": {} 
+            }   
+        ]
+    }
+}

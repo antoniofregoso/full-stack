@@ -1,0 +1,36 @@
+[
+  {
+    "name": "administrator",
+    "description": "Platform administrator with full access.",
+    "active": true,
+    "user_emails": [
+      "admin@local.dev"
+    ]
+  },
+  {
+    "name": "system_bot",
+    "description": "System bot with limited access.",
+    "active": true,
+    "user_emails": [
+      "bot@system.local"
+    ]
+  },
+  {
+    "name": "manager",
+    "description": "Manager with elevated permissions.",
+    "active": true,
+    "user_emails": []
+  },
+  {
+    "name": "supervisor",
+    "description": "Supervisor with permissions to review and approve content.",
+    "active": true,
+    "user_emails": []
+  },
+  {
+    "name": "user",
+    "description": "Regular user with limited access.",
+    "active": true,
+    "user_emails": []
+  }
+]

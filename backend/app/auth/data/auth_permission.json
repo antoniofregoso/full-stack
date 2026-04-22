@@ -1,0 +1,373 @@
+[
+ {
+    "code": "auth.user.create",
+    "description": "Create a new user"
+ },
+ {
+    "code": "auth.user.read",
+    "description": "Read user information"
+ },
+ {
+    "code": "auth.user.update",
+    "description": "Update user information"
+
+ },
+ {
+    "code": "auth.user.delete",
+    "description": "Delete a user"
+ },
+ {
+    "code": "auth.role.create",
+    "description": "Create a new role"
+ },
+ {
+    "code": "auth.role.read",
+    "description": "Read role information"
+ },
+ {
+    "code": "auth.role.update",
+    "description": "Update role information"
+ },
+ {
+    "code": "auth.role.delete",
+    "description": "Delete a role"
+ },
+ {
+    "code": "auth.permission.create",
+    "description": "Create a new permission"
+ },
+ {
+    "code": "auth.permission.read",
+    "description": "Read permission information"
+ },
+ {
+    "code": "auth.permission.update",
+    "description": "Update permission information"
+ },
+ {
+    "code": "auth.permission.delete",
+    "description": "Delete a permission"
+ },
+ {
+    "code": "auth.role_permission.create",
+    "description": "Create a new role-permission assignment"
+ },
+ {
+    "code": "auth.role_permission.read",
+    "description": "Read role-permission assignment information"
+ },
+ {
+    "code": "auth.role_permission.update",
+    "description": "Update role-permission assignment information"
+ },
+ {
+    "code": "auth.role_permission.delete",
+    "description": "Delete a role-permission assignment"
+
+ },
+ {
+    "code": "auth.user_role.create",
+    "description": "Create a new user-role assignment"
+ },
+ {
+    "code": "auth.user_role.read"
+ },
+ {
+    "code": "auth.user_role.update",
+    "description": "Update user-role assignment information"
+ },
+ {
+    "code": "auth.user_role.delete",
+    "description": "Delete a user-role assignment"
+ },
+ {
+    "code": "core.action.create",
+    "description": "Create a new action"
+ },
+ {
+    "code": "core.action.read"
+ },
+ {
+    "code": "core.action.update",
+    "description": "Update action information"
+ },
+ {
+    "code": "core.action.delete",
+    "description": "Delete an action"
+ },
+ {
+    "code": "core.app_setting.create",
+    "description": "Create a new application setting"
+
+ },
+ {
+    "code": "core.app_setting.read",
+    "description": "Read application setting information"
+ },
+ {
+    "code": "core.app_setting.update",
+    "description": "Update application setting information"
+ },
+ {
+    "code": "core.app_setting.delete"
+ },
+ {
+    "code": "core.app.create",
+    "description": "Create a new application"
+ },
+ {
+    "code": "core.app.read",
+    "description": "Read application information"
+ },
+ {
+    "code": "core.app.update",
+    "description": "Update application information"
+ },
+ {
+    "code": "core.app.delete",
+    "description": "Delete an application"
+ },
+ {
+    "code": "core.company.create",
+    "description": "Create a new company"
+
+ },
+ {
+    "code": "core.company.read",
+    "description": "Read company information" 
+ },
+ {
+    "code": "core.company.update"
+ },
+ {
+    "code": "core.company.delete",
+    "description": "Delete a company"
+ },
+ {
+    "code": "core.project.create",
+    "description": "Create a new project"
+ },
+ {
+    "code": "core.country.create",
+    "description": "Create a new country"
+ },
+ {
+    "code": "core.country.read",
+    "description": "Read country information"
+ },
+ {
+    "code": "core.country.update",
+    "description": "Update country information"
+ },
+ {
+    "code": "core.country.delete",
+    "description": "Delete a country"
+ },
+ {
+    "code": "core.country_state.create",
+    "description": "Create a new country state"
+ },
+ {
+    "code": "core.country_state.read",
+    "description": "Read country state information"
+ },
+ {
+    "code": "core.country_state.update",
+    "description": "Update country state information"
+
+ },
+ {
+    "code": "core.country_state.delete"
+ },
+ {
+    "code": "core.currency.create",
+    "description": "Create a new currency"
+ },
+ {
+    "code": "core.currency.read",
+    "description": "Read currency information"
+ },
+ {
+    "code": "core.currency.update",
+    "description": "Update currency information"
+ },
+ {
+    "code": "core.currency.delete",
+    "description": "Delete a currency"
+ },
+ {
+    "code": "core.entity.create",
+    "description": "Create a new entity"
+ },
+ {
+    "code": "core.entity.read",
+    "description": "Read entity information"
+ },
+ {
+    "code": "core.entity.update",
+    "description": "Update entity information"
+ },
+ {
+    "code": "core.entity.delete",
+    "description": "Delete an entity"
+ },
+ {
+    "code": "core.feature.create",
+    "description": "Create a new feature"
+ },
+ {
+    "code": "core.feature.read",
+    "description": "Read feature information"
+ },
+ {
+    "code": "core.feature.update",
+    "description": "Update feature information"
+ },
+ {
+    "code": "core.feature.delete",
+    "description": "Delete a feature"
+ },
+ {
+    "code": "core.lang",
+    "description": "Create a new language"
+ },
+ {
+    "code": "core.lang.read",
+    "description": "Read language information"
+ },
+ {
+    "code": "core.lang.update",
+    "description": "Update language information"
+ },
+ {
+    "code": "core.lang.delete",
+    "description": "Delete a language"
+ },
+ {
+    "code": "core.module.create",
+    "description": "Create a new module"
+ },
+ {
+    "code": "core.module.read",
+    "description": "Read module information"
+ },
+ {
+    "code": "core.module.update",
+    "description": "Update module information"
+ },
+ {
+    "code": "core.module.delete",
+    "description": "Delete a module"
+ },
+ {
+    "code": "core.page.create",
+    "description": "Create a new page"
+ },
+ {
+    "code": "core.page.read",
+    "description": "Read page information"
+ },
+ {
+    "code": "core.page.update",
+    "description": "Update page information"
+ },
+ {
+    "code": "core.page.delete",
+    "description": "Delete a page"
+ },
+ {
+    "code": "core.party.create",
+    "description": "Create a new party"
+ },
+ {
+    "code": "core.party.read",
+    "description": "Read party information"
+ },
+ {
+    "code": "core.party.update",
+    "description": "Update party information"
+ },
+ {
+    "code": "core.party.delete",
+    "description": "Delete a party"
+ },
+ {
+    "code": "core.seed.create",
+    "description": "Create a new seed"
+ },
+ {
+    "code": "core.seed.read",
+    "description": "Read seed information"
+ },
+ {
+    "code": "core.seed.update",
+    "description": "Update seed information"
+ },
+ {
+    "code": "core.seed.delete",
+    "description": "Delete a seed"
+ },
+ {
+    "code": "core.system.create",
+    "description": "Create a new system"
+ },
+ {
+    "code": "core.system.read",
+    "description": "Read system information"
+ },
+ {
+    "code": "core.system.update",
+    "description": "Update system information"
+ },
+ {
+    "code": "core.system.delete",
+    "description": "Delete a system"
+ },
+ {
+    "code": "core.team.create",
+    "description": "Create a new team"
+ },
+ {
+    "code": "core.team.read",
+    "description": "Read team information"
+ },
+ {
+    "code": "core.team.update",
+    "description": "Update team information"
+ },
+ {
+    "code": "core.team.delete",
+    "description": "Delete a team"
+ },
+ {
+    "code": "core.timezone.create",
+    "description": "Create a new timezone"
+ },
+ {
+    "code": "core.timezone.read",
+    "description": "Read timezone information"
+ },
+ {
+    "code": "core.timezone.update"
+ },
+ {
+    "code": "core.timezone.delete",
+    "description": "Delete a timezone"
+ },
+ {
+    "code": "core.user_assignment.create",
+    "description": "Create a new user assignment"
+ },
+ {
+    "code": "core.user_assignment.read",
+    "description": "Read user assignment information"
+ },
+ {
+    "code": "core.user_assignment.update",
+    "description": "Update user assignment information"
+ },
+ {
+    "code": "core.user_assignment.delete",
+    "description": "Delete a user assignment"
+ }
+]
